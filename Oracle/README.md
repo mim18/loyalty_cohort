@@ -10,5 +10,5 @@ the MLHO Demographics table.
 INSTRUCTIONS
 - Edit the scripts to replace any @crc_schema or @metadata_schema strings wih schemas in your environment
 - Run BUILD_LOYALTY_REFERENCE_TABLES.sql. This script only needs run once. It creates and populates the Charlson facts, the Loyalty features and the feature to ACT c_fullname map.
-- Run LOYALTY_SCORE_MAIN.sql This runs the remainde or the scripts except EXPORT_DEMOGRAPHICS.sql
+- Run LOYALTY_SCORE_MAIN.sql This runs the remainder of the scripts except EXPORT_DEMOGRAPHICS.sql and CLEANUP_LOYALTY_TABLES
   -- If you are translating the ASSEMBLE_LOYALTY_STATS_OPTIONAL.sql script is optional as none of the tables included in this script are used as input to MLHO for wither of the experiments. 
